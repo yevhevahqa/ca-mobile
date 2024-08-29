@@ -1,5 +1,5 @@
-import BasePage from '../../base.page';
-import {ShippingAddress} from '../../../interfaces/testDataInterfaces';
+import BasePage from 'pages/base.page';
+import {ShippingAddress} from 'interfaces/testDataInterfaces';
 
 class AbesCheckoutPage extends BasePage {
     get firstNameInput() { return $('input[id="ShipFirstName"]')}

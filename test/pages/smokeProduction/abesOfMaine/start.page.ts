@@ -1,4 +1,4 @@
-import BasePage from '../../base.page';
+import BasePage from 'pages/base.page';
 
 class  AbesStartPage extends BasePage {
     get header() { return $('header div.main-menu') }

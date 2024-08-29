@@ -15,5 +15,6 @@
   "scripts": {
     "android.browser": "wdio run config/wdio.android.browser.conf.ts",
     "ios.browser": "wdio run config/wdio.android.browser.conf.ts"
-  }
+  },
+  "files.eol": "\n"
 }

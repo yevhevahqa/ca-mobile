@@ -3,23 +3,16 @@
         "moduleResolution": "node",
         "esModuleInterop": true,
         "module": "commonjs",
-        "target": "es2022",
-        "lib": ["es2022", "dom"],
+        "target": "es6",
+        "lib": ["es5", "ES6", "es2017", "dom", "ES2021.String", "ES2021"],
         "types": [
             "node",
             "@wdio/globals/types",
             "expect-webdriverio",
             "@wdio/mocha-framework"
         ],
-        "skipLibCheck": true,
-        "noEmit": true,
-        "allowImportingTsExtensions": true,
-        "resolveJsonModule": true,
-        "isolatedModules": true,
-        "strict": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "noFallthroughCasesInSwitch": true
+        "baseUrl": "./test",
+        "resolveJsonModule": true
     },
     "include": ["**/*.ts"]
 }

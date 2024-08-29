@@ -1,4 +1,4 @@
-import BasePage from '../../base.page';
+import BasePage from 'pages/base.page';
 
 class AbesBasketPage extends BasePage {
     get headerLogo() { return $('[alt="Abes of Maine"]') }

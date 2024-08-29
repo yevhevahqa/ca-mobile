@@ -16,6 +16,7 @@ export const config = {
         "appium:orientation": "PORTRAIT",
         "appium:automationName": "XCUITest",
         "appium:newCommandTimeout": 240,
+
     }],
 
     logLevel: 'info',

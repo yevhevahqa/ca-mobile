@@ -9,7 +9,7 @@ export const config = {
     capabilities: [{
         port: 4723,
         platformName: 'Android',
-        'appium:deviceName': 'Device API 35',
+        'appium:deviceName': 'DeviceAuto API 35',
         'appium:automationName': 'UiAutomator2',
         'appium:orientation': 'PORTRAIT',
         'appium:newCommandTimeout': 240,

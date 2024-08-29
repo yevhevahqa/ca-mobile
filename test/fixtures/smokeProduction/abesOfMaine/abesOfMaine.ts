@@ -1,4 +1,4 @@
-import FixturesBasePage from '../../fixturesBasePage';
+import FixturesBasePage from 'fixtures/fixturesBasePage';
 
 class AbesTestData extends FixturesBasePage {
     public testDataCheckoutSuccess() {

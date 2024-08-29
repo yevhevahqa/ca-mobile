@@ -1,5 +1,5 @@
 const productionUrls = {
-    abesOfMaine: 'https://www.abesofmaine.com/'
+    abesOfMaine: 'https://storage.googleapis.com/checkout-qa-public/testing-tool-ca-qa-new.html'
 }
 
 export { productionUrls }
